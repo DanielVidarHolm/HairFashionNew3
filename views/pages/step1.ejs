@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>Step 1</title>
+    <%- include('../partials/head') %>
+  </head>
+  <body class="one-screen-page">
+    <div class="page">
+      <main class="page-content" id="perspective">
+        <div class="content-wrapper">
+          <div class="page-header page-header-perspective">
+            <%- include('../partials/header-steps-counter1') %>
+          </div>
+          <div class="custom-progress">
+            <div class="custom-progress-body" style="width: 0;"></div>
+          </div>
+          <div id="wrapper">
+            <section class="section-xl bg-periglacial-blue one-screen-page-content text-center">
+              <div class="shell">
+                <h2>VÆLG EN SERVICE</h2>
+                <div class="p text-width-medium">
+                  <p class="big">På denne side kan du vælge en tjeneste, du har brug for. Her præsenteres kun de mest populære hårstylingstjenester, vi tilbyder. Hvis du har brug for en personlig stylingservice, så kontakt os venligst.</p>
+                </div>
+                <div class="range range-50">
+                  <div class="cell-xs-6 cell-md-3">
+                    <article class="card-service-option"><img class="card-service-option-image" src="images/icon-service-1-70x62.png" alt="" width="70" height="62"/>
+                      <p class="card-service-option-title">TRADITIONELLE KLIPPERINGER</p>
+                      <div class="card-service-option-panel">
+                        <p class="card-service-option-text">En af de mest populære tjenester, som vores hårstylister tilbyder</p><a class="btn btn-xs card-service-option-control" href="/step2">Vælge</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="cell-xs-6 cell-md-3">
+                    <article class="card-service-option"><img class="card-service-option-image" src="images/icon-service-1-70x62.png" alt="" width="70" height="62"/>
+                      <p class="card-service-option-title">Farvelægning</p>
+                      <div class="card-service-option-panel">
+                        <p class="card-service-option-text">En af de mest populære tjenester, som vores hårstylister tilbyder</p><a class="btn btn-xs card-service-option-control" href="/step2">Vælge</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="cell-xs-6 cell-md-3">
+                    <article class="card-service-option"><img class="card-service-option-image" src="images/icon-service-1-70x62.png" alt="" width="70" height="62"/>
+                      <p class="card-service-option-title">Hårpleje</p>
+                      <div class="card-service-option-panel">
+                        <p class="card-service-option-text">En af de mest populære tjenester, som vores hårstylister tilbyder</p><a class="btn btn-xs card-service-option-control" href="/step2">Vælge</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="cell-xs-6 cell-md-3">
+                    <article class="card-service-option"><img class="card-service-option-image" src="images/icon-service-1-70x62.png" alt="" width="70" height="62"/>
+                      <p class="card-service-option-title">Bryllup</p>
+                      <div class="card-service-option-panel">
+                        <p class="card-service-option-text">En af de mest populære tjenester, som vores hårstylister tilbyder</p><a class="btn btn-xs card-service-option-control" href="/step2">Vælge</a>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Page Footer-->
+            <footer class="page-footer page-footer-default">
+              <%- include('../partials/footer') %>
+            </footer>
+          </div>
+          <div id="perspective-content-overlay"></div>
+        </div>
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <%- include('../partials/rd-navbar') %>
+        </div>
+      </main>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>Finish</title>
+    <%- include('../partials/head') %>
+  </head>
+  <body class="one-screen-page">
+    <div class="page">
+      <main class="page-content" id="perspective">
+        <div class="content-wrapper">
+          <div class="page-header page-header-perspective">
+            <div class="page-header-left"><a class="brand" href="/index"><img src="images/logo-default-dark-200x36.png" alt="" width="200" height="36"/></a></div>
+            <div class="page-header-center">
+              <div class="step-progress">
+                <div class="step-progress-caption"><span>færdig</span><img src="images/icon-done-15x14.png" alt="" width="15" height="14"/>
+                </div>
+              </div>
+            </div>
+            <div class="page-header-right">
+              <div id="perspective-open-menu" data-custom-toggle=".perspective-menu-toggle" data-custom-toggle-hide-on-blur="true"><span class="perspective-menu-text">Menu</span>
+                <button class="perspective-menu-toggle"><span></span></button>
+              </div>
+            </div>
+          </div>
+          <div id="wrapper">
+            <section class="section-xl bg-periglacial-blue one-screen-page-content text-center">
+              <div class="shell">
+                <h2>TAK SKAL DU HAVE!</h2>
+                <div class="p text-width-small">
+                  <p class="big">Tak, fordi du indsendte din aftale! Vores administratorer vil kontakte dig snarest for at bekræfte din reservation og besvare spørgsmål, du måtte have.</p>
+                </div><a class="btn btn-sm btn-style-1 btn-primary" href="/index">Tilbage til startsiden</a>
+              </div>
+            </section>
+
+            <!-- Page Footer-->
+            <footer class="page-footer page-footer-default">
+              <%- include('../partials/footer') %>
+            </footer>
+
+          </div>
+          <div id="perspective-content-overlay"></div>
+        </div>
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <%- include('../partials/rd-navbar') %>
+        </div>
+      </main>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
